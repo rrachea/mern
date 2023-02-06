@@ -10,10 +10,8 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
-
     <Router>
       <Navbar />
-      
       <Routes>
         <Route exact path='/' element = {<HomePage/>}/>
         <Route exact path='/myself' element = {<Myself/>}/>

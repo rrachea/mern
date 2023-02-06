@@ -14,34 +14,17 @@ const items = new Array(9).fill().map((item, i) => {
     )
 });
 
-
-
-
 const Gallery= () =>{
   return (
-    <>
-  
     <div className='middle'>
-     
       <Masonry
         breakpointCols={3}
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column">
         {items}
       </Masonry>
-
-      {/* <p className='right'>
-      
-        <span class='header'> Sng </span>
-        
-
-      </p> */}
-      <div class=''>
-        {/* <br/> */}
-    
-      </div>
+      <div className=''></div>
     </div>
-    </>
   );
 }
 export default Gallery;

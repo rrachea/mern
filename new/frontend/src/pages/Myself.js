@@ -6,9 +6,8 @@ import './page.css'
 const Myself = () =>{
   return (
     <>
-  
-    <div class='myself'>
-        <span class='header'>About Me</span>
+    <div className='myself'>
+        <span className='header'>About Me</span>
         <div>
             Education
             <ul>
@@ -56,13 +55,7 @@ const Myself = () =>{
                 </li>
             </ul>
         </div>
-
     </div>
-
-     
-    
-
-
     </>
   );
 }

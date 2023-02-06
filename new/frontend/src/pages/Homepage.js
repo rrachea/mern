@@ -17,28 +17,16 @@ const items = new Array(2).fill().map((item, i) => {
 
 const HomePage = () =>{
   return (
-    <>
-    <body>
-      <div class = 'main'>
-        <p class='left'>
-      <Masonry
-        breakpointCols={1}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column">
-        {items}
-      </Masonry>
-
-      
-
-
-        </p>
-          
-      </div>
-      
-    </body>
-   
-    
-    </>
+      <div className='main'>
+        <div className="left">
+        <Masonry
+          breakpointCols={1}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column">
+          {items}
+        </Masonry>
+        </div>
+      </div>   
   );
 }
 export default HomePage;
